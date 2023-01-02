@@ -1,0 +1,74 @@
+{
+    "name": "DefaultControl",
+    "maps": [
+        {
+            "name": "Default",
+            "id": "99664db0-0656-41c1-b584-537af7aab7d7",
+            "actions": [
+                {
+                    "name": "LeftBeater",
+                    "type": "Button",
+                    "id": "4c443b4c-e9ca-44b8-82e0-5a2c8b2a8a08",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightBeater",
+                    "type": "Button",
+                    "id": "dc8a0e7d-9343-4e1d-9bb2-869189c36e21",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Spring",
+                    "type": "Button",
+                    "id": "ed7f3a52-9801-4a48-9ef2-fa21a7ad8de0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "a88ffcad-2e90-4b32-8262-9558d3edac1a",
+                    "path": "<Keyboard>/leftArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "LeftBeater",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "53e6bb67-b18e-4a82-9fbe-69eec6126185",
+                    "path": "<Keyboard>/rightArrow",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightBeater",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d9ebe421-a4a4-49ef-9c8a-547d51c0157f",
+                    "path": "<Keyboard>/space",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Spring",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
