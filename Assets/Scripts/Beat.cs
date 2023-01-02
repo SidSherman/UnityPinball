@@ -3,7 +3,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 public class Beat : MonoBehaviour
 {
-    [SerializeField] private KeyCode _keyCode;
+
     [SerializeField] private float _pushSpringTarget;
     [SerializeField] private float _pullSpringTarget;
     [SerializeField] private float _springValue;
